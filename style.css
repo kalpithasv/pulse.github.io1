@@ -311,14 +311,11 @@ header .LoginForm p a {
   font-size: 6rem;
 }
 .Home .HomeContent h5 {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 .Home .HomeContent h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
- .Home .HomeContent h1 {
-    font-size: 1.5rem;
-  }
 .Home .HomeContent p {
   font-size: 1.4rem;
   line-height: 2;
