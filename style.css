@@ -13,7 +13,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "poppinsgit", serif;
+  font-family: "poppins", serif;
   text-decoration: none;
   border: none;
   outline: none;
@@ -65,7 +65,7 @@ header {
   margin: 0;
   position: sticky ;
   top: 0;
-  left:-10;
+  left: 0;
   right: 1;
   padding: 1.5rem 10%;
   display: flex;
@@ -73,14 +73,19 @@ header {
   background: #fff;
   z-index: 100000;
   box-shadow: var(--box_shadow);
+  align-items: center;
 }
 header .logo {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   color: #000;
   font-weight: 600;
+  margin-left: 1rem;
+  margin-right: auto;
+  order: -1;
 }
 header .logo span {
   color: var(--main);
+
 }
 header .navbar a {
   font-size: 2rem;
@@ -759,16 +764,17 @@ header .LoginForm p a {
 .Home .HomeContent h3 {
   font-size: 6rem;
 }
-.Home .HomeContent h5 {
+/* .Home .HomeContent h5 {
   font-size: 4rem;
-}
-.Home .HomeContent h2 {
+} */
+.Home .HomeContent h5 {
   font-size: 2.5rem;
 }
 .Home .HomeContent p {
-  font-size: 1.4rem;
-  line-height: 2;
-  padding: 1rem 0;
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 2rem 0;
+  text-align: center;
 }
 /* Home Section End */
 
