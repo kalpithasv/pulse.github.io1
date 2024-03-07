@@ -1,5 +1,7 @@
 /* Google Font  */
-@import url("https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,400;1,500&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins:wght@100;400;500;600&display=swap');
+
 
 /* root */
 :root {
@@ -11,7 +13,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Besley", serif;
+  font-family: "poppins", serif;
   text-decoration: none;
   border: none;
   outline: none;
@@ -303,9 +305,13 @@ header .LoginForm p a {
   width: 100%;
 }
 .Home .HomeContent {
-  position: relative;
+  position: absolute;
   width: 50rem;
   color: rgb(255, 254, 254);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 .Home .HomeContent h3 {
   font-size: 6rem;
