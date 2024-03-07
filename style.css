@@ -60,10 +60,11 @@ section {
 
 /* Navbar/Header Start */
 header {
-  position: sticky;
+  margin: 0;
+  position: sticky ;
   top: 0;
-  left: 0;
-  right: 0;
+  left:-10;
+  right: 1;
   padding: 1.5rem 10%;
   display: flex;
   justify-content: space-between;
@@ -72,7 +73,7 @@ header {
   box-shadow: var(--box_shadow);
 }
 header .logo {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   color: #000;
   font-weight: 600;
 }
@@ -300,12 +301,11 @@ header .LoginForm p a {
   left: 0;
   height: 100%;
   width: 100%;
-  background: linear-gradient(120deg, black, transparent);
 }
 .Home .HomeContent {
   position: relative;
   width: 50rem;
-  color: white;
+  color: rgb(255, 254, 254);
 }
 .Home .HomeContent h3 {
   font-size: 6rem;
