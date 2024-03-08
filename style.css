@@ -343,7 +343,7 @@ header .LoginForm p a {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 3rem;
+  gap: 20px;
 }
 .about .row .Video {
   flex: 1 1 40rem;
@@ -355,15 +355,14 @@ header .LoginForm p a {
 }
 .about .row .AboutMainContent {
   flex: 1 1 40rem;
-  box-shadow: var(--box_shadow);
   padding: 1rem;
 }
 .about .row .AboutMainContent h4 {
-  font-size: 3.7rem;
-  font-weight: 700;
+  font-size: 40px;
+  font-weight: 500;
 }
 .about .row .AboutMainContent p {
-  font-size: 1.3rem;
+  font-size: 16px;
   line-height: 2rem;
   padding: 1rem 0;
 }
@@ -379,26 +378,28 @@ header .LoginForm p a {
   padding: 3rem;
   text-align: center;
   box-shadow: var(--box_shadow);
-  border: 1px solid #000;
+  border: 1px solid #ffffff;
   cursor: pointer;
+  border-radius: 40px;
 }
 .RecentEvent .boxContainer .box:hover {
-  transform: scale(1.05);
+  transform: scale(1.045);
 }
 .RecentEvent .boxContainer .box img {
-  height: 10rem;
+  height: 150px;
   width: 100%;
   object-fit: cover;
-  margin-bottom: 0.8rem;
+  margin-bottom: 10px;
+  border-radius: 20px;
 }
 .RecentEvent .boxContainer .box h4 {
-  font-size: 1.8rem;
+  font-size: 20px;
   padding: 1rem 0;
-  text-align: left;
+  text-align: center;
 }
 .RecentEvent .boxContainer .box p {
-  font-size: 1.1rem;
-  text-align: left;
+  font-size: 12px;
+  text-align: center;
 }
 /*Recent Events Section End */
 
