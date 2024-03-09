@@ -356,7 +356,6 @@ header .LoginForm p a {
 .about .row .AboutMainContent {
   flex: 1 1 40rem;
   padding: 1rem;
-  box-shadow: var(--box_shadow);
 }
 .about .row .AboutMainContent h4 {
   font-size: 40px;
