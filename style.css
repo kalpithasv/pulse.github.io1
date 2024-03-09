@@ -5,7 +5,7 @@
 
 /* root */
 :root {
-  --main: #AA336A;
+  --main: #000000;
   --box_shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.8);
 }
 
@@ -107,6 +107,7 @@ header .Icons a {
   text-align: center;
   margin-left: 0.2rem;
 }
+
 header .Icons a:hover {
   background: var(--main);
   color: #fff;
@@ -356,9 +357,11 @@ header .LoginForm p a {
 .about .row .AboutMainContent {
   flex: 1 1 40rem;
   padding: 1rem;
+  box-shadow: var(--box_shadow);
+  border-radius: 40px;
 }
 .about .row .AboutMainContent h4 {
-  font-size: 40px;
+  font-size: 70px;
   font-weight: 500;
 }
 .about .row .AboutMainContent p {
